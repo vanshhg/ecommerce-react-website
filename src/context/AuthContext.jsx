@@ -36,8 +36,9 @@ function signUp(email, password) {
             return { success: false, error: "Invalid email for password"}
         }
 
-        localStorage.setItem("currentUserEmail")
-        setUser(found)
+        localStorage.setItem("currentUserEmail", email)
+        setUser(found);
+        return {success: true};
     }
 
     function logout(){ 

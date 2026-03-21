@@ -7,7 +7,7 @@ export default function Auth(){
     const [mode, setMode] = useState("signup");
     const [error, seterror] = useState(null);
     const {register, handleSubmit, formState: { errors }} = useForm();
-    const {signUp, user, logout, login}= useContext(AuthContext);
+    const {signUp, login}= useContext(AuthContext);
     const navigate = useNavigate()
 
     function onSubmit(data){
@@ -17,22 +17,18 @@ export default function Auth(){
         }else{
             result = login(data.email, data.password)
         }
-
+        console.log(result.success);
         if(result.success){
             navigate("/")
         }else{
             seterror(result.error)
         }
-        console.log(result)
     }
 
     return (
         <div className="page">
             <div className="container">
                 <div className="auth-container">
-                    {//<button onClick={() => logout()}>Logout</button>
-                    //{user && user.email &&  <p>User logged in: {user.email}</p>}
-                    }
                     <h1 className="page-title">
                         {mode === "signup" ? "Sign Up" : "Login"}
                     </h1>
