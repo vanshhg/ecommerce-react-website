@@ -1,7 +1,7 @@
 # 🛍️ E-Commerce React Website
 
 A modern and responsive **E-Commerce web application** built using React.
-The project demonstrates a clean UI, product browsing, and a smooth shopping experience.
+The project demonstrates a clean UI, product browsing experience, and a simple checkout flow.
 
 🌐 **Live Demo:**
 https://ecommerce-react-website-delta.vercel.app/
@@ -11,14 +11,14 @@ https://ecommerce-react-website-delta.vercel.app/
 ## ✨ Features
 
 * 🛒 Browse products in a clean catalog layout
-* 🔍 Product listing interface
+* 🔐 User authentication (Login / Signup)
+* 🧾 Checkout page for order review
 * 📱 Fully responsive design
-* ⚡ Fast performance using React
-* 🎨 Modern UI design
+* ⚡ Fast performance with React
 
 ---
 
-## 🖥️ Tech Stack
+## 🛠️ Tech Stack
 
 **Frontend**
 
@@ -33,52 +33,53 @@ https://ecommerce-react-website-delta.vercel.app/
 
 ---
 
-## 📂 Project Structure
+## 📸 Screenshots
 
-```
-ecommerce-react-website/
-│
-├── public
-│
-├── src
-│   ├── components
-│   ├── pages
-│   ├── assets
-│   └── App.js
-│
-├── package.json
-└── README.md
-```
+### 🏠 Homepage
+
+![Homepage](screenshots/homepage.png)
+
+### 🛍️ Items Page
+
+![Items Page](screenshots/itemspage.png)
+
+### 🔐 Login / Signup Page
+
+![Login Signup Page](screenshots/login-signuppage.png)
+
+### 💳 Checkout Page
+
+![Checkout Page](screenshots/checkoutpage.png)
 
 ---
 
-## ⚙️ Installation & Setup
+## ⚙️ Installation
 
-### 1️⃣ Clone the repository
+### Clone the repository
 
 ```
 git clone https://github.com/vanshhg/ecommerce-react-website.git
 ```
 
-### 2️⃣ Navigate into the project
+### Navigate into the project
 
 ```
 cd ecommerce-react-website
 ```
 
-### 3️⃣ Install dependencies
+### Install dependencies
 
 ```
 npm install
 ```
 
-### 4️⃣ Run the development server
+### Run development server
 
 ```
 npm start
 ```
 
-The application will start at:
+Open in browser:
 
 ```
 http://localhost:3000
@@ -86,39 +87,12 @@ http://localhost:3000
 
 ---
 
-## 🚀 Deployment
-
-The project is deployed using **Vercel**.
-
-To deploy your own version:
-
-```
-npm run build
-```
-
-Then deploy the build folder using Vercel or any hosting service.
-
----
-
-## 📸 Screenshots
-
-(Add screenshots of your homepage and product pages here)
-
-Example:
-
-```
-/screenshots/homepage.png
-/screenshots/products.png
-```
-
----
-
 ## 📚 What I Learned
 
-* Building scalable React components
-* Structuring frontend projects
-* Creating responsive UI layouts
-* Deploying applications using Vercel
+* Building reusable React components
+* Managing UI layout and styling
+* Creating responsive web pages
+* Deploying React apps with Vercel
 
 ---
 
@@ -131,4 +105,4 @@ https://github.com/vanshhg
 
 ---
 
-⭐ If you like this project, consider giving it a star on GitHub!
+⭐ If you like this project, consider giving it a star!
