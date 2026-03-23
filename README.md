@@ -1,16 +1,134 @@
-# React + Vite
+# 🛍️ E-Commerce React Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **E-Commerce web application** built using React.
+The project demonstrates a clean UI, product browsing, and a smooth shopping experience.
 
-Currently, two official plugins are available:
+🌐 **Live Demo:**
+https://ecommerce-react-website-delta.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 🛒 Browse products in a clean catalog layout
+* 🔍 Product listing interface
+* 📱 Fully responsive design
+* ⚡ Fast performance using React
+* 🎨 Modern UI design
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🖥️ Tech Stack
+
+**Frontend**
+
+* React
+* JavaScript
+* HTML5
+* CSS3
+
+**Deployment**
+
+* Vercel
+
+---
+
+## 📂 Project Structure
+
+```
+ecommerce-react-website/
+│
+├── public
+│
+├── src
+│   ├── components
+│   ├── pages
+│   ├── assets
+│   └── App.js
+│
+├── package.json
+└── README.md
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+
+```
+git clone https://github.com/vanshhg/ecommerce-react-website.git
+```
+
+### 2️⃣ Navigate into the project
+
+```
+cd ecommerce-react-website
+```
+
+### 3️⃣ Install dependencies
+
+```
+npm install
+```
+
+### 4️⃣ Run the development server
+
+```
+npm start
+```
+
+The application will start at:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 🚀 Deployment
+
+The project is deployed using **Vercel**.
+
+To deploy your own version:
+
+```
+npm run build
+```
+
+Then deploy the build folder using Vercel or any hosting service.
+
+---
+
+## 📸 Screenshots
+
+(Add screenshots of your homepage and product pages here)
+
+Example:
+
+```
+/screenshots/homepage.png
+/screenshots/products.png
+```
+
+---
+
+## 📚 What I Learned
+
+* Building scalable React components
+* Structuring frontend projects
+* Creating responsive UI layouts
+* Deploying applications using Vercel
+
+---
+
+## 👨‍💻 Author
+
+**Vansh Gangwal**
+
+GitHub:
+https://github.com/vanshhg
+
+---
+
+⭐ If you like this project, consider giving it a star on GitHub!
