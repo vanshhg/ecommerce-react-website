@@ -5,10 +5,10 @@ The project demonstrates a clean UI, product browsing experience, and a simple c
 
 🌐 **Live Demo:**
 https://ecommerce-react-website-delta.vercel.app/
-
----
-
-## ✨ Features
+    
+---   
+    
+## ✨ Features   
 
 * 🛒 Browse products in a clean catalog layout
 * 🔐 User authentication (Login / Signup)
